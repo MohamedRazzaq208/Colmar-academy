@@ -15,10 +15,10 @@ header {
   justify-content: space-between;
   align-items: center;
   align-content: center;
-  border-bottom: 1px solid black;
+  background-color: white;
   position: fixed;
   width: 100%;
-  z-index: 100;
+  z-index: 1000;
   height: 4rem;
 }
 
@@ -66,3 +66,50 @@ header nav li a {
 header nav li a:hover {
   color: grey;
 }
+
+/** Section One **/
+ #sectionone {
+  position: relative;
+  top: 4rem;
+  background-color: lightgrey;
+  display: flex;
+ }
+
+#sectionone img {
+  width: 60%;
+  margin: 2rem 1.5rem;
+ }
+ 
+ .para1 {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+ }
+
+ .para1 h1 {
+  display: block;
+  margin-left: 1.5rem;
+  color: rgb(70, 68, 68);
+  font-size: 2.5rem;
+  font-weight: 900;
+ }
+
+ .para1 p {
+  margin-left: 1.5rem;
+  display: block;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: rgb(70, 68, 68);
+  margin-top: 0;
+  padding-top: 0;
+ }
+
+ .para1 button {
+  width: 78%;
+  margin-left: 1.5rem;
+  background-color: rgb(70, 68, 68);
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 700;
+ }
