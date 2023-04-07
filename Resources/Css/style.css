@@ -64,7 +64,7 @@ header nav li a {
 }
 
 header nav li a:hover {
-  color: grey;
+  color: rgb(199, 190, 190);
 }
 
 /** Section One **/
@@ -180,3 +180,57 @@ header nav li a:hover {
 .info-block:hover {
   background-color: lightgrey;
 }
+
+/** Section Three **/
+#sectionthree {
+  background-color: lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem 4.5rem;
+}
+
+#sectionthree h1 {
+  margin-bottom: 2rem;
+}
+
+.block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.block .blockins {
+  margin: 1rem;
+  width: 26%;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+}
+
+.block .blockins img {
+  height: auto;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.block .blockins .text2 {
+  padding-left: 1rem;
+}
+
+.block .blockins .text2  h2{
+  padding-top: 1rem;
+  margin: 0;
+}
+
+.block .blockins .text2  h2 {
+  margin: 0;
+  padding-top: 0.5rem;
+}
+ 
