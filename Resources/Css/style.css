@@ -234,3 +234,100 @@ header nav li a:hover {
   padding-top: 0.5rem;
 }
  
+/** Footer **/
+.title2 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2rem 0;
+  border-bottom: 1px solid grey;
+}
+
+footer .info-left {
+  width: 60%;
+  padding: 0 1.5rem;
+}
+
+footer .info-left video {
+  width: 100%;
+}
+
+.info-left h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
+.info-left p {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  color: rgb(77, 75, 75);
+}
+
+footer .info-right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .info-block2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+}
+
+footer img {
+  width: 35%;
+  height: auto;
+  margin: 1rem;
+}
+
+footer .text4 {
+  width: 65%;
+}
+
+footer .info-block2:hover {
+  background-color: lightgrey;
+}
+
+/**Ending**/
+#Ending {
+  margin: 0;
+  padding-top: 1rem;
+  padding-left: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3rem;
+}
+
+#Ending p {
+  margin: 0;
+  color: gray;
+}
+
+.terms {
+  display: inline;
+  list-style: none;
+}
+
+.terms ul {
+  display: inline;
+}
+
+.terms ul li {
+  display: inline;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  color: gray;
+}
+
+.terms a {
+  text-decoration: none;
+  display: inline;
+  color: gray;
+}
